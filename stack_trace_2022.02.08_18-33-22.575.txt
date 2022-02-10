@@ -1,0 +1,61 @@
+-------- Kaspersky Internet Security --------
+
+--------application version: 11.81.4.7155--------
+
+--------OS version: 10--------
+
+--------Device name: HWSTK-HF--------
+
+--------Fingerprint: HONOR/STK-L21HNRU/HWSTK-HF:10/HONORSTK-LX1/10.0.0.194C10:user/release-keys--------
+
+--------Free data space= 92510056448--------
+
+--------Architecture= armeabi-v7a--------
+
+java.lang.RuntimeException: Unexpected null object
+
+--------- Stack trace ---------
+
+    com.kaspersky.feature_ksc_myapps.util.u.a(:1)
+    com.kaspersky.feature_ksc_myapps.presentation.view.applicationswithallowedpermissiongroup.PermissionGroupApplicationsFragment.zf(:4)
+    com.kaspersky.feature_ksc_myapps.presentation.view.applicationswithallowedpermissiongroup.PermissionGroupApplicationsFragment$$PresentersBinder$a.b(:1)
+    com.kaspersky.feature_ksc_myapps.presentation.view.applicationswithallowedpermissiongroup.PermissionGroupApplicationsFragment$$PresentersBinder$a.providePresenter(:1)
+    moxy.MvpProcessor.getMvpPresenter(:5)
+    moxy.MvpProcessor.getMvpPresenters(:9)
+    moxy.MvpDelegate.onCreate(:13)
+    moxy.MvpAppCompatFragment.onCreate(:2)
+    androidx.fragment.app.Fragment.performCreate(:5)
+    androidx.fragment.app.m.d(:5)
+    androidx.fragment.app.j.E0(:23)
+    androidx.fragment.app.q.b(:23)
+    androidx.fragment.app.q.c(:3)
+    androidx.fragment.app.q.B(:6)
+    androidx.fragment.app.j.U(:13)
+    androidx.fragment.app.j.R0(:10)
+    androidx.fragment.app.j.R(:4)
+    androidx.fragment.app.j.K(:5)
+    androidx.fragment.app.j.s(:3)
+    androidx.fragment.app.e.c(:1)
+    androidx.fragment.app.FragmentActivity.onStart(:5)
+    androidx.appcompat.app.AppCompatActivity.onStart(:1)
+    moxy.MvpAppCompatActivity.onStart(:1)
+    android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1440)
+    android.app.Activity.performStart(Activity.java:8109)
+    android.app.ActivityThread.handleStartActivity(ActivityThread.java:3806)
+    android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:235)
+    android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:215)
+    android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:187)
+    android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+    android.app.ActivityThread$H.handleMessage(ActivityThread.java:2386)
+    android.os.Handler.dispatchMessage(Handler.java:107)
+    android.os.Looper.loop(Looper.java:213)
+    android.app.ActivityThread.main(ActivityThread.java:8178)
+    java.lang.reflect.Method.invoke(Native Method)
+    com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+    com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1101)
+-------------------------------
+
+--------- Cause ---------
+
+-------------------------------
+
